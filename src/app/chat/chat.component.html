@@ -5,13 +5,9 @@
                 <div class="card">
 
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <strong>Hercule: </strong>
-                            <span>Bonjour!</span>
-                        </li>
-                        <li class="list-group-item">
-                            <strong>Hastings: </strong>
-                            <span>I say!</span>
+                        <li class="list-group-item" *ngFor="let chatMessage of websocketService.chatMessages">
+                            <strong>{{ chatMessage.user }}: </strong>
+                            <span>{{ chatMessage.message }}</span>
                         </li>
                     </ul>
 

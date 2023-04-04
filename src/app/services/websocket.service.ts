@@ -27,4 +27,12 @@ export class WebsocketService {
       console.log('Close: ', event)
     }
   }
+
+  public sendMessage(chatMessage: ChatMessage) {
+    this.webSocket.send(JSON.stringify(chatMessage));
+  }
+
+  public closeWebSocket() {
+    this.webSocket.close();
+  }
 }
