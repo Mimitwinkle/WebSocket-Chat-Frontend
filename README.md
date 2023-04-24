@@ -1,6 +1,15 @@
-# WebSocketChatFrontend
+# WebSocket Chat (Frontend)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
+This is the front-end for an instant messaging application. A users may send and read chat messages in real time using a WebSocket connection.
+
+View the back-end [here](https://github.com/Mimitwinkle/WebSocket-Chat-Backend).
+
+## Built with:
+<ul>
+<li>Angular</li>
+<li>HTML/CSS</li>
+<li>Bootstrap</li>
+</ul>
 
 ## Development server
 
